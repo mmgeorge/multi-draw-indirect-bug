@@ -1,4 +1,6 @@
 # multi-draw-indirect-bug
+Issue: https://bugs.chromium.org/p/chromium/issues/detail?id=1478906#c_ts1693891657
+
 Calling `drawIndirect` multiple times in a renderPass appears to not being working in chrome 118.0.5990.0. See index.html / [index.js](https://github.com/mmgeorge/multi-draw-indirect-bug/blob/master/index.js#L134-L138).
 
 ```js
